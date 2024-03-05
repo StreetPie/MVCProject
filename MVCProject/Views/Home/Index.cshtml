@@ -1,0 +1,9 @@
+﻿@using MVCProject.ViewModels
+@model IndexViewModel
+<div>
+    <h1>Пользователь</h1>
+    @foreach (var item in Model.user)
+    {
+        <p>пользователь:  @item.Name</p>
+    }
+</div>
